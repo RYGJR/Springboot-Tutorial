@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @SpringBootApplication
-@RestController
+@RestController //makes returning json array possible
 public class DemoApplication {
 
 	public static void main(String[] args) {
@@ -16,6 +16,6 @@ public class DemoApplication {
 	}
 	@GetMapping
 	public List<String> hello(){
-		return List.of("ZA", "WARUDO")
+		return List.of("ZA", "WARUDO");
 	}
 }
