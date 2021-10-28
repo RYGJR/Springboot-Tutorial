@@ -14,6 +14,6 @@ public class DemoApplication {
 	}
 	@GetMapping
 	public String hello(){
-		return "ZA WARUDO!";
+		return "ZA WARUDO! TOKI YO TOMARE";
 	}
 }
